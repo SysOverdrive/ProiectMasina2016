@@ -49,16 +49,7 @@ void loop()
  dc++;
  if (dc>100){dc=0;
  timerSoftware();} 
- // myservo.write(180);
- //analogWrite(9,180);
- //delay(100);
-  //delay(100);
- // myservo.write(50);
- //analogWrite(9,50);
-  //delay(100);
-  //analogWrite(9,50);
- // myservo.write(0);
-  //delay(100);
+
   delayMicroseconds(15);
   // sets the servo position according to the scaled value 
                            // waits for the servo to get there 
